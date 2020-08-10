@@ -54,7 +54,7 @@ server.use(
   swaggerUi.serve,
   swaggerUi.setup(swaggerJsDoc(swaggerOption), {
     explorer: false,
-    customCss: '.swagger-ui .topbar { display: none }',
+    customCss: '.swagger-ui .topbar, .scheme-container { display: none !important }',
   })
 );
 

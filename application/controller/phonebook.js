@@ -73,12 +73,12 @@ exports.create = asyncController(async (req, res) => {
  *    produces:
  *      - application/json
  *    parameters:
- *      - name: currentNumber
+ *      - name: current_number
  *        description: user current mobile number
  *        in: formData
  *        type: string
  *        required: true
- *      - name: newNumber
+ *      - name: new_number
  *        description: user new mobile number
  *        in: formData
  *        type: string
